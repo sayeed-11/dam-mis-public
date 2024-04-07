@@ -1,0 +1,13 @@
+.serviceDetails{
+    transition: 0.3s;
+}
+.serviceCard:hover .serviceDetails{
+    height: 100%;
+    justify-content: start;
+    padding: 1.5rem;
+    background-color: rgba(0,0,0,0.8);
+}
+.serviceCard:hover .detailsText{
+    display: block;
+
+}
